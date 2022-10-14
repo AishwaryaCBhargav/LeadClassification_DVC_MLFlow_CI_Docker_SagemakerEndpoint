@@ -3,13 +3,10 @@ sql.py
 sql2.py
 *.db
 *.csv
-artifacts/
 mlruns/
-model/
 train_val_test_data/
 data/
 logs/
-scaler/
 test_database/
 dvc_data/
 *.pem/
