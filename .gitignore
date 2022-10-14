@@ -7,10 +7,18 @@ artifacts/
 mlruns/
 model/
 train_val_test_data/
-# data/
+data/
 logs/
 scaler/
-test_database
+test_database/
+dvc_data/
+*.pem/
+.dvc/
+environment.yaml/
+docker-compose.yml/
+psi.py/
+
+
 
 
 # Byte-compiled / optimized / DLL files

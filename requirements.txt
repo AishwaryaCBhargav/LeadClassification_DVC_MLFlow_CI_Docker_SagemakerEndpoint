@@ -1,6 +1,6 @@
 ### dependency
 tqdm
-mlflow
+mlflow==1.26.1
 pandas
 numpy
 sklearn
@@ -10,6 +10,14 @@ shap
 xgboost==1.5.0
 sklearn_evaluation
 dvc
+pytest
+imblearn
+black
+vulture
+ensure
+awscli
+boto3
+# pypiwin32 ## build and push container to sagemaker
 
 ### local packages -
 -e . # << uncomment this to install from setup.py

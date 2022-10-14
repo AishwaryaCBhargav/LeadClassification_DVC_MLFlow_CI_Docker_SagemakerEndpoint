@@ -1,22 +1,22 @@
 # This contains params to be used by the stages to train or predict
 
 ModelTraining:
-  test_split: 0.3
-  val_split: 0.5
-  seed: 123
+  test_split: 0.2
+  val_split: 0.2
+  seed: 42
 
 
 
 BestModelParameters:
-  subsample:  1.0
+  subsample: 1.0
   silent: False
-  n_estimators: 100
-  max_depth: 6
-  learning_rate: 0.001
-  gamma: 1.0
-  colsample_bytree: 0.7
-  colsample_bylevel: 0.4
-  threshold: 0.5051
+  n_estimators: 100  
+  max_depth: 6  
+  learning_rate: 0.300000012
+  gamma: 0.0
+  colsample_bytree: 1.0
+  colsample_bylevel: 1.0
+  
 
 
 Numeric:
@@ -26,9 +26,6 @@ Numeric:
   FamilyTreeHierarchyLevel: 1
   GlobalUltimateFamilyTreeLinkageCount: 2
   TotalAssetsAmount: 630058
-  TotalLiabilitiesAmount: 448489
-  TotalCurrentAssetsAmount: 513382
-  TotalCurrentLiabilitiesAmount: 335187
   NetWorth: 151260
 
 OrgMap:
